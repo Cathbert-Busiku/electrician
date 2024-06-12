@@ -50,8 +50,8 @@
     --elton-Silver-two: #C9CFDE;
     --elton-Gainsboro: #EDF1FB;
     --elton-Orange: #FF9371;
-    --elton-primary: #E24E1F;
-    --elton-primary-two: #E45420;
+    --elton-primary: #FE0000;
+    --elton-primary-two: #FE0000;
     --elton-primarylight: #FFF4F0;
     --elton-light: #FFFFFF;
     --elton-LightGray: #DDDDDD;
@@ -1323,7 +1323,7 @@ body.locked {
 
 .banner-one-bg {
     position: absolute;
-    background: url(../images/background/banner-one.png)no-repeat;
+    background: url(../images/background/main-banner.jpeg)no-repeat;
     background-size: cover;
     filter: grayscale(80%);
     background-position-y: 94px;
@@ -2048,7 +2048,7 @@ body.locked {
 }
 
 .services-one-single-box:hover .services-one-single-img {
-    transform: translateY(50px);
+    transform: translateY(10px);
 }
 
 .services-one-slider .owl-dots button+button {
@@ -2547,7 +2547,7 @@ body.locked {
 ***********************/
 .blog-one {
     position: relative;
-    padding-top: 120px;
+    /* padding-top: 120px; */
     z-index: 99;
     overflow: hidden;
 }
@@ -8852,4 +8852,24 @@ body.locked {
 .contact-form .form-group input,
 .contact-form .form-group textarea {
     width: 100%;
+}
+
+.services-one-slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-one-single-box-wrapper {
+    flex: 1 1 33%; /* Adjust based on how many columns you want */
+    display: flex;
+    align-items: stretch;
+}
+
+.services-one-single-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
