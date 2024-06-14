@@ -5437,6 +5437,16 @@ body.locked {
     margin-left: 19px;
 }
 
+.methodology-step {
+    -webkit-text-stroke: 1px var(--elton-primary);
+    color: #FFF0EC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    margin-left: 19px;
+}
+
 .about-three-tag-inner h5 {
     color: var(--elton-dark);
     font-size: 20px;
@@ -7747,7 +7757,9 @@ body.locked {
 .services-four-single-two,
 .services-four-single-three,
 .services-four-single-four,
-.services-four-single-five {
+.services-four-single-five,
+.services-four-single-six,
+.services-four-single-seven {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -7839,22 +7851,22 @@ body.locked {
 }
 
 .services-four-single-one {
-    background: url(../images/background/services-two-single-three-bg-2.png)no-repeat;
+    background: url(../images/background/electrician-one.jpg)no-repeat;
     background-size: cover;
 }
 
 .services-four-single-two {
-    background: url(../images/background/services-two-single-three-bg-2.png)no-repeat;
+    background: url(../images/background/solar-two.jpg)no-repeat;
     background-size: cover;
 }
 
 .services-four-single-three {
-    background: url(../images/background/services-two-single-three-bg-2.png)no-repeat;
+    background: url(../images/background/battery-one.jpeg)no-repeat;
     background-size: cover;
 }
 
 .services-four-single-four {
-    background: url(../images/background/services-two-single-three-bg-2.png)no-repeat;
+    background: url(../images/background/cctv.webp)no-repeat;
     background-size: cover;
 }
 
@@ -7864,7 +7876,12 @@ body.locked {
 }
 
 .services-four-single-six {
-    background: url(../images/background/services-two-single-three-bg-2.png)no-repeat;
+    background: url(../images/background/air-con.jpg)no-repeat;
+    background-size: cover;
+}
+
+.services-four-single-seven {
+    background: url(../images/background/fixing-one.jpg)no-repeat;
     background-size: cover;
 }
 
@@ -7872,7 +7889,9 @@ body.locked {
 .services-four-single:hover .services-four-single-two,
 .services-four-single:hover .services-four-single-three,
 .services-four-single:hover .services-four-single-four,
-.services-four-single:hover .services-four-single-five {
+.services-four-single:hover .services-four-single-five,
+.services-four-single:hover .services-four-single-six,
+.services-four-single:hover .services-four-single-seven {
     opacity: 1;
 }
 
@@ -8354,7 +8373,7 @@ body.locked {
 
 .services-details-points-two-details li p {
     color: var(--elton-dark);
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
